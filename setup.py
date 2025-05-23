@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='miyabi256',
-    version='0.1.1',
+    version='0.1.2',
     author='eightman',
     author_email='eightman124@gmail.com',
     description='A Base64-like encoder/decoder using 256 Japanese characters (Hiragana, Katakana, Kanji).',
