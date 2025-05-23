@@ -19,7 +19,7 @@ pip を使用してインストールできます。
 
 ```bash
 pip install miyabi256
-
+```
 
 ## 使用方法
 
@@ -45,5 +45,3 @@ print(f"元のテキスト: {text_string}")
 print(f"エンコードされたテキスト: {encoded_text}")
 print(f"デコードされたテキスト: {decoded_text}")
 ```
-
-python setup.py sdist bdist_wheel
