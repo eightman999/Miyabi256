@@ -46,3 +46,4 @@ print(f"エンコードされたテキスト: {encoded_text}")
 print(f"デコードされたテキスト: {decoded_text}")
 ```
 
+python setup.py sdist bdist_wheel
