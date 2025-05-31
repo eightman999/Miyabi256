@@ -26,21 +26,21 @@ pip install miyabi256
 ### 基本的なエンコードとデコード
 
 ```python
-import miyabi256
+import miyabi
 
 # バイトデータをエンコード
 data_bytes = b'Hello, world!'
-encoded_string = miyabi256.encode_bytes(data_bytes)
+encoded_string = miyabi.encode_bytes(data_bytes)
 print(f"エンコードされた文字列: {encoded_string}")
 
 # 文字列をデコードしてバイトデータに戻す
-decoded_bytes = miyabi256.decode_string(encoded_string)
+decoded_bytes = miyabi.decode_string(encoded_string)
 print(f"デコードされたバイトデータ: {decoded_bytes}")
 
 # テキストデータをエンコード/デコード (UTF-8)
 text_string = "こんにちは、世界！"
-encoded_text = miyabi256.encode_text(text_string)
-decoded_text = miyabi256.decode_text(encoded_text)
+encoded_text = miyabi.encode_text(text_string)
+decoded_text = miyabi.decode_text(encoded_text)
 print(f"元のテキスト: {text_string}")
 print(f"エンコードされたテキスト: {encoded_text}")
 print(f"デコードされたテキスト: {decoded_text}")
